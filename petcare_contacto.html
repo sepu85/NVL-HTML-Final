@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mi pagina de prueba</title>
+  </head>
+  <body>
+<form method="post" action="miservidor.php">
+<h3> Solicita Informacion </h3>
+    <div>
+      <label for=”nombre”>Nombre:</label>
+      <input id=”nombre” type=”text”>
+    </div>
+    <div>
+      <label for=”ape1”>Primer apellido:</label>
+      <input id=”ape1” type=”text”>
+    </div>
+    <div>
+      <label for=”ape2”>Segundo apellido:</label>
+      <input id=”ape2” type=”text”>
+    </div>
+    <div>
+      <label for=”edad”>Email:</label>
+      <input id=”email” type=”text”>
+    </div>
+    <div>
+      <label for="nmasct">Nombre de la mascota:</label>
+      <input id="nmasct" type="text">
+    </div>
+    <div>
+      <label for="animal">Que animal es?</label>
+      <select id="animal">
+        <option value="perro">Perro</option>
+        <option value="gato">Gato</option>
+        <option value="ave">Ave</option>
+        <option value="reptil">Reptil</option>
+        <option value="otro">Otrol</option>
+      </select>
+    </div> 
+  <div>
+      <label for=”sexo”>Sexo de la mascota:</label>
+      <input name=”sexo” type=”radio” value=”M”>Masculino
+      <input name=”sexo” type=”radio” value=”F”>Femenino
+      <input name=”sexo” type=”radio” value=”NS">NoSabe
+  </div>
+  <div>
+      <label for="edad">Edad de tu mascota (en anos humanos)</label>
+      <input name="edad" type="number">
+  </div>
+  <div>
+    <label for=”comentario:”>Comentario adicional:</label>
+    <textarea id=”comentario”></textarea>
+  </div>
+  <input type=”submit” value=”Enviar”> 
+</form>
+</body>
+</html>
